@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import GameClass from '../classes/GameClass';
 import Board from './Board';
 import Controls from './Controls';
-import styles from '../styles/game.module.css';
 
 const gameInstance: GameClass = new GameClass();
 
@@ -85,8 +84,8 @@ export default function Game() {
     , [isRunning]);
 
     return (
-        <div className={styles.gameContainer}>
-            <div className={styles.scoreContainer}>Score: {score}</div>
+        <div>
+            <div>Score: {score}</div>
             <Board grid={grid} />
            <Controls 
                 gameInstance={gameInstance}
