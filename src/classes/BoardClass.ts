@@ -1,4 +1,4 @@
-export default class Board {
+export default class BoardClass {
     private rows: number;
     private cols: number;
     private grid: (string | number)[][];

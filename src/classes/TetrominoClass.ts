@@ -1,7 +1,7 @@
 import { Shape, Position, Type } from '../types/tetromino';
 import { SHAPES } from '../constants/shapes';
 
-export default class Tetromino {
+export default class TetrominoClass {
     private shape: Shape;
     private position: Position;
     private type: Type;
