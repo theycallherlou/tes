@@ -20,3 +20,19 @@
   --L: '#c9c19fff'
   
 }
+
+
+body {
+  margin: 0.654rem;
+  padding: 0.813rem;
+  height: 100dvh;
+  width: 100dvw;
+}
+
+.app {
+  margin: 0 auto;
+  max-width: 85dvw;
+  height: 100dvh;
+  padding: 1rem;
+  border: 0.036rem solid #444144;
+}
