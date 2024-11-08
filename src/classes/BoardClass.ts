@@ -2,7 +2,7 @@ import { Position } from "../types/tetromino";
 
 export default class BoardClass {
     private rows: number;
-    private cols: number;
+    public cols: number;
     private grid: (string | number)[][];
 
     constructor(rows: number = 20, cols: number = 10) {
