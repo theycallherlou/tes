@@ -1,0 +1,50 @@
+
+.boardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    padding: 10px;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    gap: 1px;
+  }
+  
+  .boardCol {
+    width: 20px;
+    height: 20px;
+    background-color: aliceblue;
+  }
+  
+  
+  .tetromino-i {
+    background-color: var(--I);
+  }
+  
+  .tetromino-o {
+    background-color: var(--O);
+  }
+  
+  .tetromino-t {
+    background-color: var(--T);
+  }
+  
+  .tetromino-s {
+    background-color: var(--S);
+  }
+  
+  .tetromino-z {
+    background-color: var(--Z);
+  }
+  
+  .tetromino-j {
+    background-color: var(--J);
+  }
+  
+  .tetromino-l {
+    background-color: var(--L);
+  }
